@@ -1,7 +1,7 @@
 <?php
 // A simple function to add numbers
 function add($a, $b) {
-    return $a - $b; // BUG: We are subtracting instead of adding!
+    return $a + $b; // BUG: We are subtracting instead of adding!
 }
 
 // The "Test"
